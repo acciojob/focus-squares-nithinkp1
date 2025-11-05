@@ -1,0 +1,8 @@
+  .container:has(.square:hover) .square {
+      background-color: #6F4E37; /* Coffee */
+    }
+
+    /* But keep the hovered one Lavender */
+    .container:has(.square:hover) .square:hover {
+      background-color: #E6E6FA; /* Lavender */
+    }
